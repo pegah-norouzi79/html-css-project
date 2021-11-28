@@ -1,0 +1,227 @@
+@media ( max-width: 1240px ){
+    .container{
+        margin: 0 auto;
+        width: 1000px;
+    }
+    .icon-menu{
+        display: none;
+    }
+    .down-bar , .copy{
+        padding: 0 20px;
+    }
+}
+@media ( max-width: 1024px ){
+    .container{
+        width: 760px;
+    }	
+    .right-header .social{
+        display: none;
+    }
+    .right-header{
+        align-items: center;
+    }
+    .icon-menu{
+        display: block;
+        margin-left: 40px;
+    }
+    .top-menu{
+        display: none;
+    }
+    .icon-menu a{
+        color: #383838;
+        font-size: 1.5rem;
+    }
+    .top ,
+    .main-tech ,
+    .first-fashion , 
+    .second-fashion , 
+    .third-fashion , 
+    .fourth-fashion {
+        display: block;
+    }
+    .email{
+        margin-top: 20px;
+    }
+    .image-back {
+        padding: auto ;
+    }
+    .left-tech{
+        margin-right: 0px;
+
+    }
+    .right-tech{
+        margin-top: 50px;
+    }
+    .slider-nav a {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .down-bar , .copy{
+        padding: 0px;
+    }
+    .copy-right-right a{
+        padding-left: 10px;
+    }
+    #responsive-story{
+        display: none;
+    }
+    .text-fashion{
+        margin-left: 0px;
+    }
+
+}
+@media ( max-width: 768px ){
+    .container{
+        width: 92%;
+    }	
+    .slider{
+        display: none;
+    }
+    .recent-item ,  
+    .first , 
+    .second , 
+    .pic ul , 
+    .down-bar , 
+    .copy ,
+    .story
+    {
+        display: block;
+    }
+    .pic img{
+        display: block;
+    }
+    .recent-articles{
+        padding-top: 120px;
+    }
+    .top{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .box-article a{
+        width: 60%;
+    }
+    .left-article , .center-article , .left-travel , .center-travel{
+        margin-right: 0px;
+    }
+    .right-header {
+        padding-top: 4px;
+    }
+    .copy-right{
+        text-align: center;
+    }
+    footer{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .news , .email{
+        margin: auto 10px;
+    }
+    .email-address{
+        font-size: 0.8rem;
+    }
+    .email-subscribe{
+        font-size: 0.8rem;
+    }
+    .email{
+        margin-top: 30px;
+    }
+    .copy-right-right {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .left-footer , .center-footer{
+        margin-right: 0px;
+    }
+    .story{
+        text-align: center;
+    }
+
+
+}
+@media ( max-width: 425px ){
+    .container{
+        width: 86%;
+    }
+    footer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .left-footer , .center-footer , .right-footer {
+        text-align: center;
+    }
+    .social-footer a{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .left-footer , .center-footer{
+        padding-bottom: 20px;
+    }
+    .center-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .center-footer ul{
+        width: auto;
+    }
+    .copy-right-right li{
+        display: block;
+    }
+    .copy-right-right{
+        padding-top: 30px;
+    }
+    .copy-right-right a{
+        padding-left: 0px;
+    }
+    .center-footer li{
+        margin-right: 0px;
+    }
+    .bottom-tech{
+        display: block;
+    }
+    .image{
+        display: none;
+    }
+    .top{
+        padding: 10px 0px;
+    }
+    .image-back {
+        padding: auto ;
+    }
+    .email-address{
+        font-size: 0.7rem;
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+    .email-subscribe{
+        font-size: 0.7rem;
+    }
+    .top{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .news , .email{
+        margin: auto 4px;
+    }
+    .email{
+        margin-top: 40px;
+    }
+    .story{
+        display: none;
+    }
+    .copy-right{
+        margin-bottom: 0px;
+    }
+    .head-body{
+        display: block;
+        text-align: center;
+    }
+    .same h3 a{
+        font-size: 1rem;
+    }
+    .same p{
+        font-size: 0.8rem;
+    }
+    .left-head-body h4{
+        font-size: 1.5rem;
+    }
+}
